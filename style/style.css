@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", serif;
+}
+body {
+    font-family: "Playwrite GB S", serif;
+    line-height: 1.6;
+    background-color: aquamarine;
+    background-size: cover; 
+}
+header {
+    background: linear-gradient(to right, grey, black);
+    color: white;
+    padding:10px;
+    text-align: center;
+}
+h2{
+    text-align:center;
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin-left:60px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    margin: 20px;
+}
+.content {
+    flex: 3;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color:aquamarine;
+}
+.sidebar h3 {
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar ul li a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.float-image {
+    margin: 10px;
+    width: 150px;
+    float: left;
+}
+footer {
+    background: linear-gradient(to right, grey, black);
+    color: white;
+    text-align: left;
+    padding: 25px;
+    height: 100px;
+}
+footer p {
+    font-family: 'Roboto', sans-serif;
+}
